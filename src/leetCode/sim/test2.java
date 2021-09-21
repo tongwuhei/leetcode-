@@ -46,7 +46,7 @@ public class test2 {
         node2.next.next = new ListNode(4);
 
         ListNode node = mergeTwoLists(node1, node2);
-        while (node.next != null){
+        while (node.next != null) {
             System.out.println(node.val);
             node = node.next;
         }

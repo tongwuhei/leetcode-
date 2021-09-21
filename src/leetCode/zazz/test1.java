@@ -12,4 +12,8 @@ public class test1 {
         s = s.replace(" ", "%20");
         return s;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
